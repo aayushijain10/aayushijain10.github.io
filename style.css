@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.s1 {
+  background-image: url("./images/sun1.jpg");
+  background-size: cover;
+}
+.section h1 {
+  font-size: 64px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #86197f,  #a943a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2 {
+  background: linear-gradient(to left top, rgb(189, 193, 199), white);
+}
+.s2 h1 {
+  font-size: 48px;
+  background: linear-gradient(to left, #404042, #373838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chair {
+  height: 60%;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  margin-top: 20%;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+.description p {
+  margin: 50px 0px;
+}
+
+.form{
+  width: 50%;
+  position: relative;
+  height: 50px;
+}
+.form input{
+  width: 100%;
+  height: 100%;
+  color: #595f6e;
+  padding-top: 20px;
+  border: none;
+}
+.form label{
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.form label::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  bottom: -1px;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translate(-100%);
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
